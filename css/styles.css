@@ -2,7 +2,7 @@ html,
 body {
   height: 1000px;
   font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .gradient {
@@ -270,14 +270,6 @@ body {
   margin-bottom: 10px;
 }
 
-.form-svg {
-  position: absolute;
-  top: 3320px;
-  right: 100px;
-  width: 90vmax;
-  z-index: -1;
-}
-
 .p-footer {
   color: white;
   margin-top: 20px;
@@ -309,7 +301,7 @@ body {
 }
 
 .ul-icons ul li a:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
