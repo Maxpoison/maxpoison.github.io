@@ -175,16 +175,38 @@ body {
 }
 
 .h1-projects {
-  color: #788386;
+  color: #73c074;
   margin-top: 0rem;
   margin-bottom: 5rem;
-  border-bottom: 4px solid #73c074;
+  border-bottom: 4px solid #fff;
   border-radius: 40%;
   font-size: 3.5rem;
   text-align: center;
   display: inline-block;
   width: 400px;
   padding-bottom: 10px;
+}
+
+.projects {
+  background: rgb(77, 76, 88);
+  background: linear-gradient(
+    0deg,
+    rgba(77, 76, 88, 1) 15%,
+    rgba(60, 122, 140, 1) 37%,
+    rgba(60, 122, 140, 1) 63%,
+    rgba(77, 76, 88, 1) 85%
+  );
+}
+
+.contact-gradient {
+  background: rgb(77, 76, 88);
+  background: linear-gradient(
+    0deg,
+    rgba(77, 76, 88, 1) 15%,
+    rgba(60, 122, 140, 1) 37%,
+    rgba(60, 122, 140, 1) 63%,
+    rgba(77, 76, 88, 1) 85%
+  );
 }
 
 .projects svg {
@@ -216,13 +238,14 @@ body {
   -o-transform: skew(-5deg, 0deg);
   -ms-transform: skew(-5deg, 0deg);
   transform: skew(-5deg, 0deg);
+  margin-bottom: 30px;
 }
 
 .image-projects:hover {
-  color: #73c074;
+  color: #fff;
   border: 1px solid;
-  box-shadow: 0 0 50px #73c074;
-  filter: brightness(70%);
+  box-shadow: 0 0 50px #fff;
+  filter: brightness(100%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -231,8 +254,8 @@ body {
 }
 
 .p-projects {
-  text-shadow: #3d883f 14px -5px 20px;
-  color: black;
+  text-shadow: #3e7a40 14px -5px 20px;
+  color: #fff;
   border-right: 4px solid #73c074;
   border-left: 4px solid #73c074;
   -moz-transform: skew(-5deg, 0deg);
@@ -244,6 +267,10 @@ body {
 
 .forms {
   margin-bottom: 20px;
+}
+
+.label-form {
+  color: #73c074;
 }
 
 .form-control {

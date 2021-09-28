@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1400px;
+  background: rgb(77, 76, 88);
+  background: linear-gradient(
+    0deg,
+    rgba(77, 76, 88, 0.8491771708683473) 15%,
+    rgba(60, 122, 140, 1) 37%,
+    rgba(60, 122, 140, 1) 63%,
+    rgba(77, 76, 88, 0.8519782913165266) 85%
+  );
+  height: 300px;
+}
+
+.window {
+  margin: 0 auto;
+  padding: 0;
+}
+.box {
+  margin-top: 150px;
+  padding: 40px;
+}
+
+.box h1 {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+.box p {
+  font-size: 24px;
+  margin-left: 350px;
+}
+.box input {
+  font-size: 20px;
+}
