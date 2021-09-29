@@ -70,6 +70,20 @@ body {
   animation: fade-in 2s ease-out;
 }
 
+.cv {
+  background-color: rgb(60, 121, 140);
+  font-style: italic;
+}
+
+.cv a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.cv:hover {
+  background-color: rgb(104, 199, 228);
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
